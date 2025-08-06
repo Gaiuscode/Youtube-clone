@@ -8,7 +8,7 @@
   left: 0;
   right: 0;
   background-color: white;
-  border-bottom-width:  1px;
+  border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(220, 209, 209);
   z-index: 100;
@@ -61,6 +61,25 @@
   border-radius: 2px;
   margin-left: -1px;
   margin-right: 10px;
+  position: relative;
+}
+
+.search-button .tool-tip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  bottom: -45px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+}
+
+.search-button:hover .tool-tip {
+opacity: 1;
 }
 .search-icon {
   height: 25px;
@@ -78,6 +97,26 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(245, 245, 245);
+  position: relative;
+}
+
+.voice-button .tool-tip{
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  bottom: -45px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.voice-button:hover .tool-tip{
+  opacity: 1;
 }
 
 .voice-icon {
@@ -99,10 +138,87 @@
 .notification-icon {
   height: 24px;
 }
+.icons-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -1px;
+  right: -4px;
+  background-color: rgb(200 0, 0);
+  color: white;
+  font-family: roboto, arial;
+  font-size: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 100%;
+}
+
 .youtube-app-icon {
   height: 24px;
 }
 .profile-pic {
   height: 24px;
   border-radius: 100%;
+}
+
+.icons-container .tool-tip {
+    position: absolute;
+  background-color: grey;
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  right: -25px;
+  bottom: -45px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.icons-container:hover .tool-tip {
+  opacity: 1;
+}
+.youApps-icons-container .tool-tip {
+    position: absolute;
+  background-color: grey;
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  right: 90px;
+  bottom: -30px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.youApps-icons-container:hover .tool-tip {
+  opacity: 1;
+}
+.upload-icons-container .tool-tip {
+    position: absolute;
+  background-color: grey;
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  right: 170px;
+  bottom: -32px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.upload-icons-container:hover .tool-tip {
+  opacity: 1;
 }
