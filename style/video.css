@@ -1,10 +1,9 @@
-
-
 .video-picture {
   width: 100%;
   display: inline-block;
   margin-right: 15px;
   vertical-align: top;
+  position: relative;
 }
 .video-image {
   width: 100%;
@@ -46,4 +45,12 @@
   row-gap: 35px;
   padding-right: 15px;
   padding-left: 15px;
+}
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  padding: 4px;
 }
