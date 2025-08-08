@@ -21,16 +21,14 @@
 
 .toggle-bar {
   height: 30px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin: 0px 24px;
 }
 .youtube-logo {
   height: 24px;
 }
 .middle-section {
   flex: 1;
-  margin-left: 70px;
-  margin-right: 35px;
+  margin: 0px 35px 0px 70px ;
   max-width: 500px;
   display: flex;
   align-items: center;
@@ -59,8 +57,7 @@
   border-style: solid;
   border-color: rgb(175, 173, 173);
   border-radius: 2px;
-  margin-left: -1px;
-  margin-right: 10px;
+  margin: 0px 10px 0px -1px;
 }
 
 .voice-button {
@@ -91,10 +88,7 @@
   position: absolute;
   background-color: grey;
   color: white;
-  padding-right: 8px;
-  padding-left: 8px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 8px;
   bottom: -45px;
   border-radius: 2px;
   font-size: 12px;
@@ -145,10 +139,7 @@
   color: white;
   font-family: roboto, arial;
   font-size: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding: 2px 5px;
   border-radius: 100%;
 }
 
